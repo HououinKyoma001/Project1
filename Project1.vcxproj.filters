@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="rsc">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="res\audio">
+      <UniqueIdentifier>{5652b450-93f7-456f-b8f4-a3b09790273b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\draw">
+      <UniqueIdentifier>{f54e5c3e-3fa6-4b87-83e9-837c28175ee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\front">
+      <UniqueIdentifier>{9c3d5182-cedd-43e2-ae08-315ed7fd30b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\adt.h">
+      <Filter>rsc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ai.h">
+      <Filter>rsc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio.h">
+      <Filter>rsc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bullet.h">
+      <Filter>rsc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game.h">
+      <Filter>rsc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\helper.h">
+      <Filter>rsc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map.h">
+      <Filter>rsc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\net.h">
+      <Filter>rsc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\player.h">
+      <Filter>rsc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\prng.h">
+      <Filter>rsc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render.h">
+      <Filter>rsc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\res.h">
+      <Filter>rsc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sprite.h">
+      <Filter>rsc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\storage.h">
+      <Filter>rsc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\text.h">
+      <Filter>rsc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\types.h">
+      <Filter>rsc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui.h">
+      <Filter>rsc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\weapon.h">
+      <Filter>rsc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ai.c">
+      <Filter>rsc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio.c">
+      <Filter>rsc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bullet.c">
+      <Filter>rsc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game.c">
+      <Filter>rsc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\helper.c">
+      <Filter>rsc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.c">
+      <Filter>rsc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map.c">
+      <Filter>rsc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\net.c">
+      <Filter>rsc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player.c">
+      <Filter>rsc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\prng.c">
+      <Filter>rsc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render.c">
+      <Filter>rsc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\res.c">
+      <Filter>rsc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sprite.c">
+      <Filter>rsc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\storage.c">
+      <Filter>rsc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\types.c">
+      <Filter>rsc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui.c">
+      <Filter>rsc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\weapon.c">
+      <Filter>rsc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="res\text.txt">
+      <Filter>res</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\audio\arrow_hit.wav">
+      <Filter>res\audio</Filter>
+    </Media>
+    <Media Include="res\audio\button1.wav">
+      <Filter>res\audio</Filter>
+    </Media>
+    <Media Include="res\audio\claw_hit.wav">
+      <Filter>res\audio</Filter>
+    </Media>
+    <Media Include="res\audio\claw_hit_heavy.wav">
+      <Filter>res\audio</Filter>
+    </Media>
+    <Media Include="res\audio\coin.wav">
+      <Filter>res\audio</Filter>
+    </Media>
+    <Media Include="res\audio\fireball_explosion.wav">
+      <Filter>res\audio</Filter>
+    </Media>
+    <Media Include="res\audio\hit_0.5v.wav">
+      <Filter>res\audio</Filter>
+    </Media>
+    <Media Include="res\audio\human_death.wav">
+      <Filter>res\audio</Filter>
+    </Media>
+    <Media Include="res\audio\ice_shoot.wav">
+      <Filter>res\audio</Filter>
+    </Media>
+    <Media Include="res\audio\ice_shoot_0.5v.wav">
+      <Filter>res\audio</Filter>
+    </Media>
+    <Media Include="res\audio\interaction1_0.75v.wav">
+      <Filter>res\audio</Filter>
+    </Media>
+    <Media Include="res\audio\light_shoot.wav">
+      <Filter>res\audio</Filter>
+    </Media>
+    <Media Include="res\audio\lose_2v.wav">
+      <Filter>res\audio</Filter>
+    </Media>
+    <Media Include="res\audio\med.wav">
+      <Filter>res\audio</Filter>
+    </Media>
+    <Media Include="res\audio\powerloss.wav">
+      <Filter>res\audio</Filter>
+    </Media>
+    <Media Include="res\audio\shoot.wav">
+      <Filter>res\audio</Filter>
+    </Media>
+    <Media Include="res\audio\sword_hit.wav">
+      <Filter>res\audio</Filter>
+    </Media>
+    <Media Include="res\audio\thunder_2v.wav">
+      <Filter>res\audio</Filter>
+    </Media>
+    <Media Include="res\audio\win.wav">
+      <Filter>res\audio</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\audio\bg2.ogg">
+      <Filter>res\audio</Filter>
+    </None>
+    <None Include="res\audio\main_title.ogg">
+      <Filter>res\audio</Filter>
+    </None>
+    <None Include="res\audio\sounds">
+      <Filter>res\audio</Filter>
+    </None>
+    <None Include="res\drawable\0x72_DungeonTilesetII_v1_3">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\arrow">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\attack_up">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\Axe">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\blood">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\BloodBound">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\ClawFx">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\ClawFx2">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\cross_hit">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\explosion-2">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\fireball">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\fireball_explosion1">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\floor_exit">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\floor_spike">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\golden_cross_hit">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\halo_explosion1">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\halo_explosion2">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\HolyShield">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\HpMed">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\Ice">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\IcePick">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\IceShatter">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\powerful_bow">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\purple_ball">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\purple_exp">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\Shine">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\SolidFx">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\SolidFx.png.bk">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\staff">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\SwordFx">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\SwordFx.bk">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\SwordFx.png.bk">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\SwordPack">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\Thunder">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\Thunder_Yellow">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\title">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\drawable\ui">
+      <Filter>res\draw</Filter>
+    </None>
+    <None Include="res\audio\bg3.ogg">
+      <Filter>res\audio</Filter>
+    </None>
+    <None Include="res\audio\bg1.ogg">
+      <Filter>res\audio</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\drawable\0x72_DungeonTilesetII_v1_3.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\arrow.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\attack_up.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\Axe.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\blood.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\BloodBound.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\ClawFx.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\ClawFx2.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\cross_hit.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\explosion-2.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\fireball.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\fireball_explosion1.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\floor_exit.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\floor_spike.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\golden_cross_hit.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\halo_explosion1.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\halo_explosion2.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\HolyShield.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\HpMed.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\Ice.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\IcePick.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\IceShatter.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\powerful_bow.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\purple_ball.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\purple_exp.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\Shine.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\SolidFx.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\staff.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\SwordFx.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\SwordPack.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\Thunder.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\Thunder_Yellow.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\title.png">
+      <Filter>res\draw</Filter>
+    </Image>
+    <Image Include="res\drawable\ui.png">
+      <Filter>res\draw</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="res\font\m5x7.ttf">
+      <Filter>res\front</Filter>
+    </Font>
+  </ItemGroup>
+</Project>

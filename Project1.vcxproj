@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\adt.h" />
+    <ClInclude Include="src\ai.h" />
+    <ClInclude Include="src\audio.h" />
+    <ClInclude Include="src\bullet.h" />
+    <ClInclude Include="src\game.h" />
+    <ClInclude Include="src\helper.h" />
+    <ClInclude Include="src\map.h" />
+    <ClInclude Include="src\net.h" />
+    <ClInclude Include="src\player.h" />
+    <ClInclude Include="src\prng.h" />
+    <ClInclude Include="src\render.h" />
+    <ClInclude Include="src\res.h" />
+    <ClInclude Include="src\sprite.h" />
+    <ClInclude Include="src\storage.h" />
+    <ClInclude Include="src\text.h" />
+    <ClInclude Include="src\types.h" />
+    <ClInclude Include="src\ui.h" />
+    <ClInclude Include="src\weapon.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ai.c" />
+    <ClCompile Include="src\audio.c" />
+    <ClCompile Include="src\bullet.c" />
+    <ClCompile Include="src\game.c" />
+    <ClCompile Include="src\helper.c" />
+    <ClCompile Include="src\main.c" />
+    <ClCompile Include="src\map.c" />
+    <ClCompile Include="src\net.c" />
+    <ClCompile Include="src\player.c" />
+    <ClCompile Include="src\prng.c" />
+    <ClCompile Include="src\render.c" />
+    <ClCompile Include="src\res.c" />
+    <ClCompile Include="src\sprite.c" />
+    <ClCompile Include="src\storage.c" />
+    <ClCompile Include="src\types.c" />
+    <ClCompile Include="src\ui.c" />
+    <ClCompile Include="src\weapon.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="res\text.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\audio\arrow_hit.wav" />
+    <Media Include="res\audio\button1.wav" />
+    <Media Include="res\audio\claw_hit.wav" />
+    <Media Include="res\audio\claw_hit_heavy.wav" />
+    <Media Include="res\audio\coin.wav" />
+    <Media Include="res\audio\fireball_explosion.wav" />
+    <Media Include="res\audio\hit_0.5v.wav" />
+    <Media Include="res\audio\human_death.wav" />
+    <Media Include="res\audio\ice_shoot.wav" />
+    <Media Include="res\audio\ice_shoot_0.5v.wav" />
+    <Media Include="res\audio\interaction1_0.75v.wav" />
+    <Media Include="res\audio\light_shoot.wav" />
+    <Media Include="res\audio\lose_2v.wav" />
+    <Media Include="res\audio\med.wav" />
+    <Media Include="res\audio\powerloss.wav" />
+    <Media Include="res\audio\shoot.wav" />
+    <Media Include="res\audio\sword_hit.wav" />
+    <Media Include="res\audio\thunder_2v.wav" />
+    <Media Include="res\audio\win.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\audio\bg1.ogg" />
+    <None Include="res\audio\bg2.ogg" />
+    <None Include="res\audio\bg3.ogg" />
+    <None Include="res\audio\main_title.ogg" />
+    <None Include="res\audio\sounds" />
+    <None Include="res\drawable\0x72_DungeonTilesetII_v1_3" />
+    <None Include="res\drawable\arrow" />
+    <None Include="res\drawable\attack_up" />
+    <None Include="res\drawable\Axe" />
+    <None Include="res\drawable\blood" />
+    <None Include="res\drawable\BloodBound" />
+    <None Include="res\drawable\ClawFx" />
+    <None Include="res\drawable\ClawFx2" />
+    <None Include="res\drawable\cross_hit" />
+    <None Include="res\drawable\explosion-2" />
+    <None Include="res\drawable\fireball" />
+    <None Include="res\drawable\fireball_explosion1" />
+    <None Include="res\drawable\floor_exit" />
+    <None Include="res\drawable\floor_spike" />
+    <None Include="res\drawable\golden_cross_hit" />
+    <None Include="res\drawable\halo_explosion1" />
+    <None Include="res\drawable\halo_explosion2" />
+    <None Include="res\drawable\HolyShield" />
+    <None Include="res\drawable\HpMed" />
+    <None Include="res\drawable\Ice" />
+    <None Include="res\drawable\IcePick" />
+    <None Include="res\drawable\IceShatter" />
+    <None Include="res\drawable\powerful_bow" />
+    <None Include="res\drawable\purple_ball" />
+    <None Include="res\drawable\purple_exp" />
+    <None Include="res\drawable\Shine" />
+    <None Include="res\drawable\SolidFx" />
+    <None Include="res\drawable\SolidFx.png.bk" />
+    <None Include="res\drawable\staff" />
+    <None Include="res\drawable\SwordFx" />
+    <None Include="res\drawable\SwordFx.bk" />
+    <None Include="res\drawable\SwordFx.png.bk" />
+    <None Include="res\drawable\SwordPack" />
+    <None Include="res\drawable\Thunder" />
+    <None Include="res\drawable\Thunder_Yellow" />
+    <None Include="res\drawable\title" />
+    <None Include="res\drawable\ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\drawable\0x72_DungeonTilesetII_v1_3.png" />
+    <Image Include="res\drawable\arrow.png" />
+    <Image Include="res\drawable\attack_up.png" />
+    <Image Include="res\drawable\Axe.png" />
+    <Image Include="res\drawable\blood.png" />
+    <Image Include="res\drawable\BloodBound.png" />
+    <Image Include="res\drawable\ClawFx.png" />
+    <Image Include="res\drawable\ClawFx2.png" />
+    <Image Include="res\drawable\cross_hit.png" />
+    <Image Include="res\drawable\explosion-2.png" />
+    <Image Include="res\drawable\fireball.png" />
+    <Image Include="res\drawable\fireball_explosion1.png" />
+    <Image Include="res\drawable\floor_exit.png" />
+    <Image Include="res\drawable\floor_spike.png" />
+    <Image Include="res\drawable\golden_cross_hit.png" />
+    <Image Include="res\drawable\halo_explosion1.png" />
+    <Image Include="res\drawable\halo_explosion2.png" />
+    <Image Include="res\drawable\HolyShield.png" />
+    <Image Include="res\drawable\HpMed.png" />
+    <Image Include="res\drawable\Ice.png" />
+    <Image Include="res\drawable\IcePick.png" />
+    <Image Include="res\drawable\IceShatter.png" />
+    <Image Include="res\drawable\powerful_bow.png" />
+    <Image Include="res\drawable\purple_ball.png" />
+    <Image Include="res\drawable\purple_exp.png" />
+    <Image Include="res\drawable\Shine.png" />
+    <Image Include="res\drawable\SolidFx.png" />
+    <Image Include="res\drawable\staff.png" />
+    <Image Include="res\drawable\SwordFx.png" />
+    <Image Include="res\drawable\SwordPack.png" />
+    <Image Include="res\drawable\Thunder.png" />
+    <Image Include="res\drawable\Thunder_Yellow.png" />
+    <Image Include="res\drawable\title.png" />
+    <Image Include="res\drawable\ui.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="res\font\m5x7.ttf" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{c38f93d7-5d6a-4f0d-b751-1c8f736da656}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);E:\SDL2-2.28.3\include;E:\SDL2_mixer-2.6.3\include;E:\SDL2_image-2.6.3\include;E:\SDL2_net-2.2.0\include;E:\SDL2_ttf-2.20.2\include</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>E:\SDL2-2.28.3\lib\x64;E:\SDL2_mixer-2.6.3\lib\x64;E:\SDL2_net-2.2.0\lib\x64;E:\SDL2_ttf-2.20.2\lib\x64;E:\SDL2_image-2.6.3\lib\x64</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);SDL2.lib;SDL2main.lib;SDL2test.lib;SDL2_mixer.lib;SDL2_image.lib;SDL2_ttf.lib;SDL2_net.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
